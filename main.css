@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: -webkit-gradient(linear, left top, right bottom, from(#488), to(#765AB9)) fixed;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-block{
+    background: #fff;
+    /* height: 370px; */
+    width: 470px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.white-block h3{
+    text-align: center;
+    font-size: 35px;
+    color: #367AAB;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+
+}
+.white-block p{
+text-align: center;
+color: #757575;
+font-size: 18px;
+margin-bottom: 60px;
+}
+.white-block .email{
+    width: 100%;
+    padding: 18px 20px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.white-block .password{
+    width: 100%;
+    padding: 18px 20px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.white-block .forgot{
+    color: #367AAB;
+    text-decoration: unset;
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.white-block .button{
+    background-color: #367AAB;
+    border: unset;
+    padding: 10px 35px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    float: right;
+}
